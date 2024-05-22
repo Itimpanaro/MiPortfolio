@@ -112,6 +112,8 @@ body {
 }
 #principal #banner .banner__div-contacto {
   width: 100%;
+  position: absolute;
+  bottom: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -146,7 +148,7 @@ body {
 
 #tecnologias {
   width: 100%;
-  height: 100vh;
+  height: 96vh;
 }
 #tecnologias .tecnologias__h2 {
   width: 100%;
