@@ -113,7 +113,7 @@ body {
 #principal #banner .banner__div-contacto {
   width: 100%;
   position: absolute;
-  bottom: 25vh;
+  bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
