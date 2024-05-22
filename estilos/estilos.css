@@ -1,0 +1,189 @@
+@keyframes iluminar {
+  50% {
+    text-shadow: 0 0 5px #0fbf0f;
+  }
+}
+@keyframes flecha-a {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flecha-b {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flecha-c {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #13131b;
+  font-family: "montserrat", sans-serif;
+}
+
+#encabezado {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  justify-content: center;
+}
+#encabezado .sticky__nav {
+  width: 85%;
+  max-width: 400px;
+  background-color: rgba(63, 63, 63, 0.5333333333);
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+}
+#encabezado .sticky__nav-ul {
+  display: flex;
+  list-style: none;
+}
+#encabezado .sticky__nav-ul-li {
+  padding: 0 0.5rem 0 0.5rem;
+}
+#encabezado .sticky__nav-ul-li-a {
+  color: #007d00;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+#encabezado .sticky__nav-ul-li-a.actual {
+  text-shadow: 0px 0px 7px #0fbf0f;
+}
+#encabezado .sticky__nav-ul-li:hover {
+  text-shadow: 0px 0px 7px #0fbf0f;
+}
+
+#principal #banner {
+  width: 100%;
+  height: 98vh;
+  text-align: center;
+}
+#principal #banner .banner__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 95vh;
+  align-items: center;
+  gap: 3%;
+}
+#principal #banner .banner__div-foto {
+  position: relative;
+  top: -10%;
+}
+#principal #banner .banner__div-span {
+  max-width: 340px;
+  position: relative;
+  top: -10%;
+  text-align: center;
+  color: #0fbf0f;
+  font-size: 35px;
+  font-weight: 600;
+  animation: 3s infinite iluminar;
+  text-shadow: 0 0 3px #0fbf0f;
+}
+#principal #banner .banner__div-nombre {
+  position: relative;
+  border-top: 3px solid #007d00;
+  padding: 3%;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  bottom: 11%;
+}
+#principal #banner .banner__div-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#principal #banner .banner__div-contacto-marco {
+  width: 35px;
+}
+#principal #banner .banner__div-div {
+  position: absolute;
+  bottom: 1vh;
+}
+#principal #banner .banner__div-div-tecnologias {
+  display: block;
+  position: relative;
+  color: #007d00;
+  font-weight: 600;
+}
+#principal #banner .banner__div-div .flechas {
+  position: relative;
+}
+#principal #banner .banner__div-div .flechas .flecha-a {
+  animation: 2000ms infinite flecha-a;
+}
+#principal #banner .banner__div-div .flechas .flecha-b {
+  animation: 2000ms infinite flecha-b;
+}
+#principal #banner .banner__div-div .flechas .flecha-c {
+  animation: 2000ms infinite flecha-c;
+}
+
+#tecnologias {
+  width: 100%;
+  height: 100vh;
+}
+#tecnologias .tecnologias__h2 {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: #0fbf0f;
+  top: 5vh;
+}
+#tecnologias .tecnologias__div {
+  position: relative;
+  top: 15vh;
+  height: 60vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+#tecnologias .tecnologias__div .tecnologias_cuadro {
+  width: 50px;
+  height: 50px;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tecnologias .tecnologias__div .tecnologias_cuadro:hover {
+  transition: filter 1000ms ease;
+  filter: drop-shadow(0px 0px 15px #007d00);
+}
+#tecnologias .tecnologias__div svg {
+  filter: grayscale(80%);
+  transition: all 500ms ease;
+}
+#tecnologias .tecnologias__div svg:hover {
+  transition: all 500ms ease;
+  filter: grayscale(0%);
+}
+
+/*# sourceMappingURL=estilos.css.map */

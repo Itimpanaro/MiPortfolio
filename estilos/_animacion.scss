@@ -1,0 +1,35 @@
+@keyframes iluminar{
+    50%{
+        text-shadow: 0 0 5px $verdeClaro;
+    }
+}
+
+@keyframes flecha-a{
+    20%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes flecha-b{
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes flecha-c{
+    0%{
+        opacity: 1;
+    }
+
+    80%{
+        opacity: 0;
+    }
+}
