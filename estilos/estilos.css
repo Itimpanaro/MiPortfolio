@@ -188,7 +188,7 @@ body {
   filter: grayscale(0%);
 }
 
-@media screen and (max-height: 530px) {
+@media (max-height: 530px) {
   #principal #banner {
     width: 100%;
     height: 98dvh;
@@ -226,7 +226,7 @@ body {
   #principal #banner .banner__div-contacto {
     width: 100%;
     position: absolute;
-    bottom: 25dvh;
+    bottom: 25vh;
     display: flex;
     flex-direction: row;
     justify-content: center;

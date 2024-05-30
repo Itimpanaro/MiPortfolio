@@ -166,7 +166,7 @@ body{
     }
 }
     
-@media screen and (max-height: 530px){
+@media (max-height: 530px){
     #principal{
         #banner{
             width: 100%;
@@ -203,7 +203,7 @@ body{
                 &-contacto{
                     width: 100%;
                     position: absolute;
-                    bottom: 25dvh;
+                    bottom: 25vh;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
@@ -216,7 +216,6 @@ body{
                 &-div{
                     position: absolute;
                     bottom: 1dvh;
-    
                     &-tecnologias{
                         display: block;
                         position: relative;
