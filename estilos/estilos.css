@@ -88,12 +88,12 @@ body {
 }
 #principal #banner .banner__div-foto {
   position: relative;
-  top: -10%;
+  top: -10vh;
 }
 #principal #banner .banner__div-span {
   max-width: 340px;
   position: relative;
-  top: -10%;
+  top: -13vh;
   text-align: center;
   color: #0fbf0f;
   font-size: 35px;
@@ -104,16 +104,16 @@ body {
 #principal #banner .banner__div-nombre {
   position: relative;
   border-top: 3px solid #007d00;
-  padding: 3%;
+  padding: 2vh;
   text-align: center;
   color: white;
   font-size: 19px;
-  bottom: 11%;
+  bottom: 15vh;
 }
 #principal #banner .banner__div-contacto {
   width: 100%;
   position: absolute;
-  bottom: 10vh;
+  bottom: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;

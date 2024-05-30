@@ -62,12 +62,12 @@ body{
             gap: 3%;
             &-foto{
                 position: relative;
-                top: -10%;
+                top: -10vh;
             }
             &-span{
                 max-width: 340px;
                 position: relative;
-                top: -10%; 
+                top: -13vh; 
                 text-align: center;
                 color: $verdeClaro;
                 font-size: 35px;
@@ -78,16 +78,16 @@ body{
             &-nombre{
                 position: relative;
                 border-top: 3px solid $verde;
-                padding: 3%;
+                padding: 2vh;
                 text-align: center;
                 color: #ffff;
                 font-size: 19px;
-                bottom: 11%;            
+                bottom: 15vh;            
             }
             &-contacto{
                 width: 100%;
                 position: absolute;
-                bottom: 10vh;
+                bottom: 15vh;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -164,9 +164,11 @@ body{
             }
         }
     }
-
 }
     
+@media screen and (max-height: 530px){
+    
+}
     
     
     
