@@ -276,7 +276,7 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   #tecnologias .tecnologias__div .tecnologias_cuadro {
     width: 50px;
