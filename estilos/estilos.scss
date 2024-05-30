@@ -51,23 +51,23 @@ body{
 #principal{
     #banner{
         width: 100%;
-        height: 98vh;
+        height: 98dvh;
         text-align: center;
         .banner__div{
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 95vh;
+            height: 95dvh;
             align-items: center;
             gap: 3%;
             &-foto{
                 position: relative;
-                top: -10vh;
+                top: -10dvh;
             }
             &-span{
                 max-width: 340px;
                 position: relative;
-                top: -13vh; 
+                top: -13dvh; 
                 text-align: center;
                 color: $verdeClaro;
                 font-size: 35px;
@@ -78,16 +78,16 @@ body{
             &-nombre{
                 position: relative;
                 border-top: 3px solid $verde;
-                padding: 2vh;
+                padding: 2dvh;
                 text-align: center;
                 color: #ffff;
                 font-size: 19px;
-                bottom: 15vh;            
+                bottom: 15dvh;            
             }
             &-contacto{
                 width: 100%;
                 position: absolute;
-                bottom: 15vh;
+                bottom: 15dvh;
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -99,7 +99,7 @@ body{
             }
             &-div{
                 position: absolute;
-                bottom: 1vh;
+                bottom: 1dvh;
 
                 &-tecnologias{
                     display: block;
@@ -126,17 +126,17 @@ body{
 
 #tecnologias{
     width: 100%;
-    height: 96vh;
+    height: 96dvh;
     .tecnologias__h2{ 
         width: 100%;
         position:  relative;
         text-align: center;
         color: $verdeClaro;
-        top: 5vh;
+        top: 5dvh;
     } 
     .tecnologias__div{
         position: relative;
-        top: 15vh;
+        top: 15dvh;
         height: 60vh;
         display: grid;
         justify-items: center;
