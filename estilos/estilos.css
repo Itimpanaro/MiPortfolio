@@ -75,25 +75,25 @@ body {
 
 #principal #banner {
   width: 100%;
-  height: 98dvh;
+  height: 98vh;
   text-align: center;
 }
 #principal #banner .banner__div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 95dvh;
+  height: 95vh;
   align-items: center;
   gap: 3%;
 }
 #principal #banner .banner__div-foto {
   position: relative;
-  top: -10dvh;
+  top: -10vh;
 }
 #principal #banner .banner__div-span {
   max-width: 340px;
   position: relative;
-  top: -13dvh;
+  top: -13vh;
   text-align: center;
   color: #0fbf0f;
   font-size: 35px;
@@ -104,16 +104,16 @@ body {
 #principal #banner .banner__div-nombre {
   position: relative;
   border-top: 3px solid #007d00;
-  padding: 2dvh;
+  padding: 2vh;
   text-align: center;
   color: white;
   font-size: 19px;
-  bottom: 15dvh;
+  bottom: 15vh;
 }
 #principal #banner .banner__div-contacto {
   width: 100%;
   position: absolute;
-  bottom: 15dvh;
+  bottom: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -125,7 +125,7 @@ body {
 }
 #principal #banner .banner__div-div {
   position: absolute;
-  bottom: 1dvh;
+  bottom: 1vh;
 }
 #principal #banner .banner__div-div-tecnologias {
   display: block;
@@ -148,18 +148,18 @@ body {
 
 #tecnologias {
   width: 100%;
-  height: 96dvh;
+  height: 96vh;
 }
 #tecnologias .tecnologias__h2 {
   width: 100%;
   position: relative;
   text-align: center;
   color: #0fbf0f;
-  top: 5dvh;
+  top: 5vh;
 }
 #tecnologias .tecnologias__div {
   position: relative;
-  top: 15dvh;
+  top: 15vh;
   height: 60vh;
   display: grid;
   justify-items: center;
@@ -191,14 +191,14 @@ body {
 @media (max-height: 530px) {
   #principal #banner {
     width: 100%;
-    height: 98dvh;
+    height: 98vh;
     text-align: center;
   }
   #principal #banner .banner__div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 95dvh;
+    height: 95vh;
     align-items: center;
     gap: 3%;
   }
@@ -208,7 +208,7 @@ body {
   #principal #banner .banner__div-span {
     max-width: 340px;
     position: absolute;
-    top: 35dvh;
+    top: 35vh;
     color: #0fbf0f;
     font-size: 20px;
     font-weight: 600;
@@ -221,7 +221,7 @@ body {
     text-align: center;
     color: white;
     font-size: 19px;
-    top: 45dvh;
+    top: 45vh;
   }
   #principal #banner .banner__div-contacto {
     width: 100%;
@@ -238,7 +238,7 @@ body {
   }
   #principal #banner .banner__div-div {
     position: absolute;
-    bottom: 1dvh;
+    bottom: 1vh;
   }
   #principal #banner .banner__div-div-tecnologias {
     display: block;
@@ -260,20 +260,20 @@ body {
   }
   #tecnologias {
     width: 100%;
-    height: 96dvh;
+    height: 96vh;
   }
   #tecnologias .tecnologias__h2 {
     width: 100%;
     position: relative;
     text-align: center;
     color: #0fbf0f;
-    top: 5dvh;
+    top: 5vh;
   }
   #tecnologias .tecnologias__div {
     position: relative;
     left: 15%;
     width: 70%;
-    top: 15dvh;
+    top: 15vh;
     height: 60vh;
     display: grid;
     justify-items: center;
