@@ -156,8 +156,6 @@ body{
             }
         }
         svg{
-            filter: grayscale(80%);
-            transition: all 500ms ease;
             &:hover{
                 transition: all 500ms ease;
                 filter: grayscale(0%);
@@ -253,34 +251,8 @@ body{
             position: relative;
             left: 15%;
             width: 70%;
-            top: 15vh;
-            height: 60vh;
-            display: grid;
-            justify-items: center;
-            align-items: center;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-            .tecnologias_cuadro{
-                width: 50px;
-                height: 50px;
-                border-radius: 0.8rem;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                &:hover{
-                    transition: filter 1000ms ease;
-                    filter:drop-shadow(0px 0px 15px $verde)
-                }
-            }
-            svg{
-                filter: grayscale(80%);
-                transition: all 500ms ease;
-                &:hover{
-                    transition: all 500ms ease;
-                    filter: grayscale(0%);
-                }
-            }
         }
     }
 }
