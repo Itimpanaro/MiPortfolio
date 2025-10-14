@@ -68,6 +68,7 @@ body {
 #encabezado .sticky__nav-ul {
   display: flex;
   list-style: none;
+  cursor: pointer;
 }
 #encabezado .sticky__nav-ul-li {
   padding: 0 0.5rem 0 0.5rem;
@@ -101,10 +102,10 @@ body {
 }
 #principal #banner .banner__div-foto {
   position: relative;
-  top: -10vh;
+  top: -12vh;
 }
 #principal #banner .banner__div-span {
-  max-width: 340px;
+  max-width: 600px;
   position: relative;
   top: -13vh;
   text-align: center;
@@ -114,29 +115,46 @@ body {
   animation: 3s infinite iluminar;
   text-shadow: 0 0 3px #0fbf0f;
 }
+#principal #banner .banner__div-span-estudiante {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+}
 #principal #banner .banner__div-nombre {
   position: relative;
   border-top: 3px solid #007d00;
   padding: 2vh;
   text-align: center;
-  color: white;
+  color: #b4ffb4;
   font-size: 19px;
+  bottom: 15vh;
+}
+#principal #banner .banner__div-bio {
+  max-width: 600px;
+  color: #eeffee;
+  font-size: 17px;
+  position: relative;
   bottom: 15vh;
 }
 #principal #banner .banner__div-contacto {
   width: 100%;
   position: absolute;
-  bottom: 15vh;
+  bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
 }
 #principal #banner .banner__div-contacto-marco {
   width: 35px;
 }
+#principal #banner .banner__div-contacto .cv-img {
+  width: 35px;
+  filter: invert(60%) sepia(95%) saturate(4250%) hue-rotate(105deg) brightness(94%) contrast(108%);
+}
 #principal #banner .banner__div-div {
+  cursor: pointer;
   position: absolute;
   bottom: 1vh;
 }
@@ -179,11 +197,11 @@ body {
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 #tecnologias .tecnologias__div .tecnologias_cuadro {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   border-radius: 0.8rem;
   cursor: pointer;
   display: flex;
